@@ -206,14 +206,15 @@ padding-top:200px;
 .topnav-centered a {
   float: none;
   position: absolute;
-  top: 70%;
-  left: 70%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+
 }
 
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
@@ -229,4 +230,5 @@ padding-top:200px;
     left: 0;
     transform: none;
   }
+  
 }
